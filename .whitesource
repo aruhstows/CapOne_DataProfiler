@@ -1,3 +1,21 @@
 {
-  "settingsInheritedFrom": "aruhstows/whitesource-config@main"
+  "scanSettings": {
+    "configMode": "AUTO",
+    "enableLicenseViolations": true,
+    "baseBranches": ["gh-pages"]
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  }
 }
