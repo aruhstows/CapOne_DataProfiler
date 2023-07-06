@@ -1,8 +1,8 @@
 {
   "scanSettings": {
-    "configMode": "AUTO",
+    "configMode": "LOCAL",
     "enableLicenseViolations": true,
-    "baseBranches": ["gh-pages"]
+    "baseBranches": [""]
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
